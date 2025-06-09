@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio - Custom Web Applications & E-commerce Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 style="font-style: italic;"><i class="fas fa-code"></i> Computix</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="tech-background">
+            <div class="tech-grid"></div>
+            <div class="floating-elements">
+                <div class="tech-icon" style="--delay: 0s; --x: 10%; --y: 20%;">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="tech-icon" style="--delay: 1s; --x: 80%; --y: 15%;">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <div class="tech-icon" style="--delay: 2s; --x: 15%; --y: 70%;">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="tech-icon" style="--delay: 3s; --x: 75%; --y: 80%;">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="tech-icon" style="--delay: 4s; --x: 50%; --y: 10%;">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="tech-icon" style="--delay: 5s; --x: 90%; --y: 50%;">
+                    <i class="fab fa-docker"></i>
+                </div>
+            </div>
+            <div class="code-rain">
+                <div class="code-line" style="--delay: 0s; --duration: 8s;">01010101</div>
+                <div class="code-line" style="--delay: 2s; --duration: 10s;">function()</div>
+                <div class="code-line" style="--delay: 4s; --duration: 12s;">&lt;/&gt;</div>
+                <div class="code-line" style="--delay: 6s; --duration: 9s;">console.log</div>
+                <div class="code-line" style="--delay: 8s; --duration: 11s;">API</div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Full Stack Development</span>
+                </div>
+                <h1 class="hero-title">
+                    Professional Web Applications & 
+                    <span class="gradient-text typing-text">E-commerce Solutions</span>
+                </h1>
+                <p class="hero-description">
+                    Specialized in developing custom CRM, HRM, UMS systems and modern e-commerce websites 
+                    that drive business growth and streamline operations with cutting-edge technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        View Services
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Get Quote
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">CRM Systems</span>
+                        <span class="card-desc">Customer Management</span>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Analytics</span>
+                        <span class="card-desc">Data Insights</span>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">E-commerce</span>
+                        <span class="card-desc">Online Stores</span>
+                    </div>
+                </div>
+                <div class="hero-illustration">
+                    <div class="laptop">
+                        <div class="laptop-screen">
+                            <div class="screen-content">
+                                <div class="code-editor">
+                                    <div class="editor-header">
+                                        <div class="editor-buttons">
+                                            <span class="btn-close"></span>
+                                            <span class="btn-minimize"></span>
+                                            <span class="btn-maximize"></span>
+                                        </div>
+                                    </div>
+                                    <div class="editor-content">
+                                        <div class="code-line">
+                                            <span class="keyword">const</span> 
+                                            <span class="variable">app</span> 
+                                            <span class="operator">=</span> 
+                                            <span class="string">'amazing'</span>
+                                        </div>
+                                        <div class="code-line">
+                                            <span class="keyword">function</span> 
+                                            <span class="function">createApp</span>
+                                            <span class="bracket">()</span> 
+                                            <span class="bracket">{</span>
+                                        </div>
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="keyword">return</span> 
+                                            <span class="string">'success'</span>
+                                        </div>
+                                        <div class="code-line">
+                                            <span class="bracket">}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Passionate web developer with expertise in building scalable business applications</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Creating Digital Solutions That Matter</h3>
+                    <p>
+                        With years of experience in web development, I specialize in creating custom business 
+                        applications that solve real-world problems. From customer relationship management 
+                        systems to comprehensive e-commerce platforms, I deliver solutions that are both 
+                        powerful and user-friendly.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Database</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>3+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <p>Comprehensive web solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>CRM Systems</h3>
+                    <p>Custom Customer Relationship Management systems to help you manage leads, track sales, and improve customer relationships with intuitive dashboards and reporting.</p>
+                    <ul class="service-features">
+                        <li>Lead Management</li>
+                        <li>Sales Pipeline</li>
+                        <li>Customer Analytics</li>
+                        <li>Automated Workflows</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>HRM Systems</h3>
+                    <p>Human Resource Management applications for employee management, payroll processing, attendance tracking, and performance evaluation with modern interfaces.</p>
+                    <ul class="service-features">
+                        <li>Employee Management</li>
+                        <li>Payroll Processing</li>
+                        <li>Attendance Tracking</li>
+                        <li>Performance Reviews</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>UMS (User Management)</h3>
+                    <p>Secure User Management Systems with role-based access control, authentication, and authorization features to protect your business data and operations.</p>
+                    <ul class="service-features">
+                        <li>User Authentication</li>
+                        <li>Role-Based Access</li>
+                        <li>Security Controls</li>
+                        <li>Activity Monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>E-commerce Websites</h3>
+                    <p>Full-featured online stores with payment integration, inventory management, order processing, and responsive design for optimal shopping experience.</p>
+                    <ul class="service-features">
+                        <li>Online Store Setup</li>
+                        <li>Payment Integration</li>
+                        <li>Inventory Management</li>
+                        <li>Order Processing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first responsive websites that work perfectly across all devices and screen sizes, ensuring your users have a great experience everywhere.</p>
+                    <ul class="service-features">
+                        <li>Mobile Optimization</li>
+                        <li>Cross-Browser Support</li>
+                        <li>Fast Loading</li>
+                        <li>SEO Friendly</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored web applications built specifically for your unique business requirements with scalable architecture and modern technologies.</p>
+                    <ul class="service-features">
+                        <li>Custom Development</li>
+                        <li>API Integration</li>
+                        <li>Database Design</li>
+                        <li>Maintenance Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Showcasing some of my recent work and successful implementations</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=500" alt="CRM Dashboard">
+                        <div class="portfolio-overlay">
+                            <h3>Advanced CRM System</h3>
+                            <p>Complete customer management solution with analytics</p>
+                            <div class="portfolio-tags">
+                                <span>CRM</span>
+                                <span>Dashboard</span>
+                                <span>Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=500" alt="E-commerce Store">
+                        <div class="portfolio-overlay">
+                            <h3>Modern E-commerce Store</h3>
+                            <p>Full-featured online store with payment integration</p>
+                            <div class="portfolio-tags">
+                                <span>E-commerce</span>
+                                <span>Payment</span>
+                                <span>Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=500" alt="HRM System">
+                        <div class="portfolio-overlay">
+                            <h3>HR Management Portal</h3>
+                            <p>Employee management with payroll and attendance</p>
+                            <div class="portfolio-tags">
+                                <span>HRM</span>
+                                <span>Payroll</span>
+                                <span>Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=500" alt="User Management">
+                        <div class="portfolio-overlay">
+                            <h3>User Management System</h3>
+                            <p>Secure authentication and role-based access control</p>
+                            <div class="portfolio-tags">
+                                <span>UMS</span>
+                                <span>Security</span>
+                                <span>Authentication</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your next project? Let's discuss your requirements</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always excited to work on new projects and help businesses grow with custom web solutions.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>SohaibShaikh270@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+923122933457</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="crm">CRM System</option>
+                            <option value="hrm">HRM System</option>
+                            <option value="ums">User Management System</option>
+                            <option value="ecommerce">E-commerce Website</option>
+                            <option value="custom">Custom Solution</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-code"></i> WebDev Pro</h3>
+                    <p>Creating professional web applications and e-commerce solutions that drive business success.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">CRM Systems</a></li>
+                        <li><a href="#services">HRM Solutions</a></li>
+                        <li><a href="#services">User Management</a></li>
+                        <li><a href="#services">E-commerce</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Computix. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
